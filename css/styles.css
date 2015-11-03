@@ -3,11 +3,27 @@
 /***************/
 
 
-h2 {
-    font-family: 'Raleway', sans-serif;
-    font-style:  
+body {
+ background-color: #333232;   
 }
 
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color: #E3E3E3;
+}
+
+a {
+    color: #ED4A97; 
+    text-decoration: none;
+        
+}
+
+ul {
+    text-decoration: none;
+}
 
 /* Color Palette */
 .color-1 {
@@ -15,8 +31,8 @@ h2 {
     border-style: none;
 }
 .color-2 {
-    background-color: #474646;
-    border-style: none;
+    background-color: #333232;
+    border-style: solid;
 }
 .color-3 {
     background-color: #E3E3E3;
@@ -31,10 +47,14 @@ h2 {
     border-style: none;    
 }
 
-}
+
 /* Textures or Patterns*/
 .pattern-1 {
-    background-color: blue;
+    background: linear-gradient(to bottom, #ed4a97 0%,#e62a1f 100%);
+}
+    
+.pattern-2 {
+    background: linear-gradient(to top, #ed4a97 0%,#e62a1f 100%);
 }
     
 
