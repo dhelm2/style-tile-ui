@@ -22,7 +22,7 @@ a {
 }
 
 ul {
-    text-decoration: none;
+    list-style-type: none;
 }
 
 /* Color Palette */
@@ -56,7 +56,10 @@ ul {
 .pattern-2 {
     background: linear-gradient(to top, #ed4a97 0%,#e62a1f 100%);
 }
-    
+
+.pattern-3 {
+    background-image: url("../img/pattern.png");
+}
 
 /* Imagery */
 .imagery-4 {
@@ -68,10 +71,63 @@ ul {
 /* Icons */
 
 
+/* Nav */
+
+nav {
+    font-family: Raleway; 
+    
+}
+
+nav ul {
+    color: #ed4a97;
+}
+
+nav:nth-child(2) {
+    color: #e3e3e3;
+    
+}
+
+nav a {
+    color: 
+}
 
 
 /* Typography */
+.grid-container {
+    font-family: Lora; 
+    
+}
 
+button {
+    background: linear-gradient(to bottom, #ed4a97 0%,#e62a1f 100%);
+    border-style: none;
+    width: 120px;
+    height: 40px;
+    font-family: Raleway;
+    color: #e3e3e3;
+    transition: background-color .5s ease-in;
+}
+button:hover {
+    background: #E62A1F;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    color: #E3E3E3;
+}
+
+a {
+    color: #ED4A97; 
+    text-decoration: none;
+        
+}
 
 /* Forms */
 
