@@ -82,12 +82,8 @@ nav ul {
     color: #ed4a97;
 }
 
-nav:nth-child(2) {
-    color: #e3e3e3;
     
-}
-
-nav a {
+nav ul:nth-child(2) {
     color: 
 }
 
@@ -129,10 +125,24 @@ a {
         
 }
 
+
+.first-type h3 {
+    color: #ed4a97;
+}
+
+
 /* Forms */
 
 
 /* Tables */
 
 
+table, td, tr {
+    border: 1px solid #e3e3e3;
+}
+    tr:nth-child(1) {
+  color: #e62a1f;
+        font-family: Raleway;
+          }
+    
 /* Cards */
